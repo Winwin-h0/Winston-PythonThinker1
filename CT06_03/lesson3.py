@@ -7,7 +7,7 @@ print("Hello from lesson 3")
 # Adam: 60
 # Brandon: 58
 # Charlie: 98
-# Daniel: 79
+# Daniel: 79 
 
 # adam = 60
 # Brandon = 58
