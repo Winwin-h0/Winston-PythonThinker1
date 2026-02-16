@@ -212,7 +212,7 @@ print(total)
 # i = 3, 1 = n - 3
 # i = 2, 2 = n - 2
 # i = 1, 3 = n - 1
-# n - i
+# n - i = 4 - 4, 3-
 
 # " " * (n - i) + "*" * (1 + 2 * (i - 1)) + " " * (n - i)
 
@@ -232,17 +232,21 @@ for i in range(1, (num + 1)):
 # - Wraps around after 9 (e.g. 10 → 0, 11 → 1)
 
 # Example (n = 6):
-#      1
-#     123
-#    12345
-#   1234567
-#  123456789
-# 12345678901
+#     1
+#    123
+#   12345
+#  1234567
+# 123456789
+#12345678901
 
 # Rules:
 # - No if / else
 # - Nested for loops allowed
 
+n = input("give me a number ")
+
+for i in range(1, (n + 1)):
+    print(" " * (n - 1) + i)
 
 # 5) Palindrome Number Pyramid
 # ----------------------------
