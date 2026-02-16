@@ -243,10 +243,7 @@ for i in range(1, (num + 1)):
 # - No if / else
 # - Nested for loops allowed
 
-n = input("give me a number ")
 
-for i in range(1, (n + 1)):
-    print(" " * (n - 1) + i)
 
 # 5) Palindrome Number Pyramid
 # ----------------------------
