@@ -244,7 +244,8 @@ for i in range(1, (num + 1)):
 # - Nested for loops allowed
 
 
-# 5) Palindrome Number Pyramid
+
+# 2) Palindrome Number Pyramid
 # ----------------------------
 # Write a program that prints a centre-aligned palindrome number pyramid.
 
