@@ -242,6 +242,19 @@ for i in range(1, (num + 1)):
 # Rules:
 # - No if / else
 # - Nested for loops allowed
+# num = 1
+
+n = int(input("give me a number "))
+for i in range(1, (int(n) + 1)):
+    for i in range(n):
+        print(" " * (n - i) + )
+        
+    num = num + 1
+    int(num)
+
+# try the * qns again and get used to it
+# replace the * with the number in a for loop
+# if you using a for loop in for loop, do not use i again, use j 
 
 
 
