@@ -245,12 +245,8 @@ for i in range(1, (num + 1)):
 # num = 1
 
 n = int(input("give me a number "))
-for i in range(1, (int(n) + 1)):
-    for i in range(n):
-        print(" " * (n - i) + )
-        
-    num = num + 1
-    int(num)
+for i in range(1, (n + 1)):
+    print(" " * n + (1 + 2 * (i - 1))+ )
 
 # try the * qns again and get used to it
 # replace the * with the number in a for loop
