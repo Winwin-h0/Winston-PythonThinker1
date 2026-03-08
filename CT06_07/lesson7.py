@@ -216,10 +216,10 @@ print(total)
 
 # " " * (n - i) + "*" * (1 + 2 * (i - 1)) + " " * (n - i)
 
-num = int(input("Give me 'n': " ))
+# num = int(input("Give me 'n': " ))
             
-for i in range(1, (num + 1)):
-    print(" " * (num - i) + "*" * (1 + 2 * (i - 1)) + " " * (num - i))
+# for i in range(1, (num + 1)):
+#     print(" " * (num - i) + "*" * (1 + 2 * (i - 1)) + " " * (num - i))
 
 
 # 1) Centre-Aligned Number Pyramid (Wrap at 9)
@@ -246,6 +246,8 @@ for i in range(1, (num + 1)):
 
 n = int(input("give me a number "))
 for i in range(1, (n + 1)):
+    print(" " * (n - i) + "1" + str(2 * (i - 1)) )
+        
     print(" " * n + (1 + 2 * (i - 1))+ )
 
 # try the * qns again and get used to it
