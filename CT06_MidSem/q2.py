@@ -45,7 +45,7 @@ start = input("What is your starting amount? ")
 # ============================================================
 # Step 2: Ask for Number of Days
 # ============================================================
-days = ("What is the number of days? ")
+days = input("What is the number of days? ")
 
 
 # ============================================================
@@ -56,9 +56,10 @@ days = ("What is the number of days? ")
 # - Update and print the total each day
 #   Day <X>: $<Y>
 # ============================================================
-for i in range(1, (days + 1)):
-    savings = start + i
-    print("Day " + i + ": $" + savings)
+savings = int(start)
+for i in range(1, (int(days) + 1)):
+    savings += i
+    print("Day " + str(i) + ": $" + str(savings))
 
 
 # ============================================================
@@ -67,3 +68,4 @@ for i in range(1, (days + 1)):
 # - Print the final amount in this format:
 #   Total amount saved = $<Z>
 # ============================================================
+print("Total amount saved = $" + str(savings))
