@@ -186,19 +186,19 @@ import random
 # - If the answer is wrong – output "Wrong!​
 import random
 
-# score = 0
-# questions = input("How many questions should be asked? ")
-# for i in range(1, (int(questions) + 1)):
-#     mul_1 = random.randint(1, 10)
-#     mul_2 = random.randint(1, 10)
-#     ans = mul_1 * mul_2
-#     user_ans = input(f"question:{i} what is {mul_1} * {mul_2}? ")
-#     if int(user_ans) == ans:
-#         print("Correct!")
-#         score = score + 1
-#     else:
-#         print("Wrong!")
-# print(f"You got {score} out of {questions}")
+score = 0
+questions = input("How many questions should be asked? ")
+for i in range(1, (int(questions) + 1)):
+    mul_1 = random.randint(1, 10)
+    mul_2 = random.randint(1, 10)
+    ans = mul_1 * mul_2
+    user_ans = input(f"question:{i} what is {mul_1} * {mul_2}? ")
+    if int(user_ans) == ans:
+        print("Correct!")
+        score = score + 1
+    else:
+        print("Wrong!")
+print(f"You got {score} out of {questions}")
 # ---------------------------------------------------------------
 
 # ## Task 7: Even or Odd Checker
@@ -212,13 +212,13 @@ import random
 # 2. Check if there is any remainder when user input is divided
 #    by 2 (using '%').
 # 3. Print 'True' if number is even, otherwise print 'False'.
-# number = int(input("Give me a number. "))
-# # ans = number % 2
-# # if ans == 0:
-# if number % 2 == 0:
-#     print("True")
-# else:
-#     print("False")
+number = int(input("Give me a number. "))
+# ans = number % 2
+# if ans == 0:
+if number % 2 == 0:
+    print("True")
+else:
+    print("False")
 
 # ---------------------------------------------------------------
 
