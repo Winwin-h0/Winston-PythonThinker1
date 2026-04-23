@@ -146,34 +146,34 @@ else:
 # 6. You are NOT allowed to remove any lines.
 # 7. You can only MODIFY existing lines.
 
-# al_list = []
+al_list = []
 
-# while True
-# score = input("Enter score: ")
+while True
+score = input("Enter score: ")
 
-#     if score == "end"
-#         break
+    if score == "end"
+        break
 
-#     if score < 0 or score > 100:
-#         print("Invalid")
+    if score < 0 or score > 100:
+        print("Invalid")
 
-#     elif score > 89:
-#         al = 1
-#     elif score > 84:
-#         al = 2
-#     elif score > 79:
-#         al = 3
-#     elif score > 74:
-#         al = 4
-#     elif score > 64:
-#         al = 5
-#     elif score > 44:
-#         al = 6
-#     elif score > 19:
-#         al = 7
-#     else:
-#         al = 8
+    elif score > 89:
+        al = 1
+    elif score > 84:
+        al = 2
+    elif score > 79:
+        al = 3
+    elif score > 74:
+        al = 4
+    elif score > 64:
+        al = 5
+    elif score > 44:
+        al = 6
+    elif score > 19:
+        al = 7
+    else:
+        al = 8
 
-#     al_list.append(a1)
+    al_list.append(a1)
 
-# print("AL list: " + al_list)
+print("AL list: " + al_list)
