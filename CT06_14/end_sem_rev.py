@@ -158,8 +158,9 @@ else:
 # 6. You are NOT allowed to remove any lines.
 # 7. You can only MODIFY existing lines.
 
-# al_list = []
+al_list = []
 
+<<<<<<< HEAD
 # while True:
 #     score = input("Enter score: ")
 
@@ -189,3 +190,34 @@ else:
 #     al_list.append(al)
 
 # print(f"AL list: {al_list}")
+=======
+while True
+score = input("Enter score: ")
+
+    if score == "end"
+        break
+
+    if score < 0 or score > 100:
+        print("Invalid")
+
+    elif score > 89:
+        al = 1
+    elif score > 84:
+        al = 2
+    elif score > 79:
+        al = 3
+    elif score > 74:
+        al = 4
+    elif score > 64:
+        al = 5
+    elif score > 44:
+        al = 6
+    elif score > 19:
+        al = 7
+    else:
+        al = 8
+
+    al_list.append(a1)
+
+print("AL list: " + al_list)
+>>>>>>> c883072b29391dd057a1063b426c31df96cc3578
