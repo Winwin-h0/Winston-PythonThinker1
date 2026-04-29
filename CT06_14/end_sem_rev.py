@@ -160,64 +160,64 @@ else:
 
 al_list = []
 
-<<<<<<< HEAD
-# while True:
-#     score = input("Enter score: ")
+while True:
+    score = input("Enter score: ")
 
-#     if score == "end":
-#         break
-
-#     if int(score) < 0 or int(score) > 100:
-#         print("Invalid")
-
-#     elif int(score) > 89:
-#         al = 1
-#     elif int(score) > 84:
-#         al = 2
-#     elif int(score) > 79:
-#         al = 3
-#     elif int(score) > 74:
-#         al = 4
-#     elif int(score) > 64:
-#         al = 5
-#     elif int(score) > 44:
-#         al = 6
-#     elif int(score) > 19:
-#         al = 7
-#     else:
-#         al = 8
-
-#     al_list.append(al)
-
-# print(f"AL list: {al_list}")
-=======
-while True
-score = input("Enter score: ")
-
-    if score == "end"
+    if score == "end":
         break
+    score = int(score)
 
-    if score < 0 or score > 100:
+    if int(score) < 0 or int(score) > 100:
         print("Invalid")
 
-    elif score > 89:
+    elif int(score) > 89:
         al = 1
-    elif score > 84:
+    elif int(score) > 84:
         al = 2
-    elif score > 79:
+    elif int(score) > 79:
         al = 3
-    elif score > 74:
+    elif int(score) > 74:
         al = 4
-    elif score > 64:
+    elif int(score) > 64:
         al = 5
-    elif score > 44:
+    elif int(score) > 44:
         al = 6
-    elif score > 19:
+    elif int(score) > 19:
         al = 7
     else:
         al = 8
 
-    al_list.append(a1)
+    al_list.append(al)
 
-print("AL list: " + al_list)
->>>>>>> c883072b29391dd057a1063b426c31df96cc3578
+print(f"AL list: {al_list}")
+
+# while True
+# score = input("Enter score: ")
+
+#     if score == "end"
+#         break
+
+#     if score < 0 or score > 100:
+#         print("Invalid")
+
+#     elif score > 89:
+#         al = 1
+#     elif score > 84:
+#         al = 2
+#     elif score > 79:
+#         al = 3
+#     elif score > 74:
+#         al = 4
+#     elif score > 64:
+#         al = 5
+#     elif score > 44:
+#         al = 6
+#     elif score > 19:
+#         al = 7
+#     else:
+#         al = 8
+
+#     al_list.append(a1)
+
+# print("AL list: " + al_list)
+
