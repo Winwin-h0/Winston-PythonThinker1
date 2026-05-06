@@ -91,7 +91,7 @@ print(shopping)
 # 3) Print the price list
 price_list = []
 for i in range(len(shopping)):
-    price = float(input(f"What is the price for {shopping[i]}"))
+    price = float(input(f"What is the price for {shopping[i]}? "))
     qty = int(input("How much you need? "))
     item_total_price = price * qty
     price_list.append(item_total_price)
@@ -102,12 +102,17 @@ print(price_list)
 # 2) Add up the total cost in the price list and print it.
 
 # total = 0
-# print("---ORDER SUMMARY---")
-# for loop
-#     print()
-# print("--------------------")
-# print(f"Total: ${total}")
+total = 0
+print("----order summery----")
+for i in range(len(price_list)):
+    print(f"Item {i + 1} - {shopping[i]}: ${price_list[i]}")
+    total += price_list[i]
+print(f"total : ${total}")
 
+
+
+
+# print(f"Total: ${total}")
 # ---ORDER SUMMARY---
 # Item 1: $XXX
 # Item 2: $YYY
