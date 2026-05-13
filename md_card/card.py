@@ -1,9 +1,9 @@
-from PIL import Image, ImageDraw, ImageFont
-import imageio.v2 as imageio
-import numpy as np
-import math
+# from PIL import Image, ImageDraw, ImageFont
+# import imageio.v2 as imageio
+# import numpy as np
+# import math
 
-# python -m pip install pillow imageio imageio-ffmpeg numpy
+#  python -m pip install pillow imageio imageio-ffmpeg numpy
 WIDTH = 600
 HEIGHT = 400
 FRAMES = 120
